@@ -110,22 +110,22 @@ Once the link has been copied (or if you prefer to type it), in a terminal edito
 
 Note: The use of the ‘git’ directory name is my personal preference, storing any git projects I have in this directory from multiple services (GitHub, BitBucket, etc). This project can be stored in any directory however. Here is some discussion on using the /srv directory for POSIX systems found here. Your project will almost always be in a different location during production (more on that later).
 
-# Navigate to the home directory with the use of 'cd' and '~' as where to go. '~' represents the current user's home directory.
+Navigate to the home directory with the use of 'cd' and '~'.
 ```
 cd ~
 ```
 
-# Create the git folder, if it already exists no problems will occur with the -p flag
+Create the git folder, if it already exists no problems will occur with the -p flag
 ```
 mkdir -p git
 ```
 
-# Knowing that the directory exists, navigate into it
+Knowing that the directory exists, navigate into it
 ```
 cd git
 ```
 
-# Clone the newly created repository
+Clone the newly created repository
 ```
 git clone https://github.com/<your_github_user_name>/modern-django.git
 ```
